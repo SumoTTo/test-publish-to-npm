@@ -1,6 +1,6 @@
 {
   "name": "@sumotto/test-publish-to-npm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Test publish to NPM",
   "main": "lib/index.js",
   "files": [
