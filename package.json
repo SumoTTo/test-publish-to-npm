@@ -1,0 +1,11 @@
+{
+  "name": "@sumotto/test-publish-to-npm",
+  "version": "1.0.0",
+  "description": "Test publish to NPM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No test specified\""
+  },
+  "author": "Sigalin Kirill",
+  "license": "ISC"
+}
