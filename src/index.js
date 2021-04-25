@@ -1,3 +1,3 @@
-const hello_world = 'Hello World Test2 :)';
+const hello_world = 'Hello World Test3 :)';
 
 alert( hello_world );
