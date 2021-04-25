@@ -2,20 +2,19 @@
   "name": "@sumotto/test-publish-to-npm",
   "version": "1.0.1",
   "description": "Test publish to NPM",
-  "main": "lib/index.js",
+  "main": "index.js",
   "files": [
-    "lib/index.js"
+    "index.js"
   ],
   "scripts": {
-    "build": "mkdirp lib && terser src/index.js -o lib/index.js -c",
+    "build": "terser src/index.js -o index.js -c",
     "prepack": "npm run build",
     "prepublishOnly": "npm run build",
     "test": "echo \"No test specified\""
   },
   "author": "Sigalin Kirill",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
-    "mkdirp": "latest",
     "terser": "latest"
   }
 }
